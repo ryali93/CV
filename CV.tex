@@ -1,0 +1,324 @@
+\\
+\documentclass[11pt,a4paper,sans]{moderncv} % Font sizes: 10, 11, or 12; paper sizes: a4paper, letterpaper, a5paper, legalpaper, executivepaper or landscape; font families: sans or roman
+\moderncvstyle{classic} % CV theme - options include: 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{blue} % CV color - options include: 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+\usepackage{lipsum} % Used for inserting dummy 'Lorem ipsum' text into the template
+\usepackage[scale=0.8]{geometry} % Reduce document margins
+\usepackage[utf8x]{inputenc}
+\setlength{\hintscolumnwidth}{2.5cm} % Uncomment to change the width of the dates column
+%\setlength{\makecvtitlenamewidth}{10cm} % For the 'classic' style, uncomment to adjust the width of the space allocated to your name
+\usepackage{tikz}
+
+%----------------------------------------------------------------------------------------
+
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION SECTION
+%----------------------------------------------------------------------------------------
+
+\firstname{Roy Marco} % Your first name
+\familyname{Yali Samaniego} % Your last name
+
+% All information in this block is optional, comment out any lines you don't need
+\title{Curriculum Vitae}
+\address{}{Lima, Perú }
+\mobile{953 527 306}
+\email{ryali93@gmail.com}
+\homepage{linkedin.com/in/ryali93} 
+\homepage{https://ryali93.github.io/blog}
+%\linkedin{http://google.com}
+%\github
+\extrainfo{10/10/1993}
+
+\photo[90pt][0.4pt]{foto/Roy3} % The first bracket is the picture height, the second is the thickness of the frame around the picture (0pt for no frame)
+%\quote{\textbf{“You can't connect the dots looking forward; you can only connect them looking backwards.”} - Steve Jobs}
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+\makecvtitle % Print the CV title
+
+%----------------------------------------------------------------------------------------
+%	PRESENTATION
+%----------------------------------------------------------------------------------------
+\begin{center}
+
+\definecolor{color1}{rgb}{0.22,0.45,0.70}
+\textbf{\textcolor{color1}{\Large{Presentación}}}
+\vspace{2mm}
+ 
+Ingeniero Geógrafo, con una sólida formación moral, actitud proactiva, compromiso y con facilidad de trabajar en grupos multidisciplinarios.\\
+Experiencia en levantamientos topográficos, Recursos Hídricos, Sistemas de Información Geográfica (SIG) y Teledetección. Con conocimientos de lenguajes de programación para análisis de datos y desarrollo; con vocación a la investigación y a la capacitación constante.
+
+\end{center}
+\vspace{0mm}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Formación Académica}
+
+\cventry{2010--2015}{Ingeniero Geógrafo}{\textsc{Universidad Nacional Mayor de San Marcos}}{Facultad de Ingeniería Geológica, Minera, Metalúrgica y Geográfica}\textit{E.A.P. de Ingeniería Geográfica - Mención en Geomática y Ordenamiento Territorial}{\textit{*Tesis: "Modelo de erosión RUSLE y coeficiente de aporte de sedimentos (SDR) para la estimación del volumen muerto en reservorios, caso de estudio Reservorio Gallito Ciego."}}
+
+%\cventry{}{}{*Título en trámites}{}{}{}  % Arguments not required can be left empty
+%\section{Masters Thesis}
+%\cvitem{Title}{\emph{Technologies and characterization of ferroelectric polymers for biomedical sensors}}
+%\cvitem{Supervisors}{Professor Antonino Fiorillo}
+%\cvitem{Description}{This thesis is based on the implementation of a temperature sensor.}
+\vspace{0mm}
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+
+\section{Experiencia Profesional}
+
+\cventry{Abr 2018 -- Actualidad}{Analista Programador GIS}{\textsc{INGEMMET}}{Oficina de Sistemas de Información}{}{Analista y programador en el marco del GEOCATMIN y desarrollo de herramientas GIS para distintas oficinas geocientíficas del INGEMMET, además de widgets integrados al GEOCATMIN.}
+\vspace{3mm}
+
+%\cventry{Abr 2018 -- Actualidad}{Asistente en Hidrología}{\textsc{SENAMHI}}{Dirección de Hidrología}{}
+%{Propuesta metodológica para la optimización de la red hidrológica nacional.}
+%\vspace{3mm}
+
+\cventry{Nov 2017 -- Actualidad}{Asistente en Hidrología}{\textsc{SENAMHI}}{Dirección de Hidrología}{}{Propuesta metodológica de delimitación de cabeceras de cuenca a nivel nacional con herramientas de programación y GIS. Desarrollo de herramientas GIS para la ubicación óptima de estaciones hidrométricas.}
+\vspace{3mm}
+
+\cventry{Jun 2017 -- Oct 2017}{Analista Programador GIS}{\textsc{INEI}}{Oficina Técnica de Informática}{}{Encargado de la segmentación rural y actualización cartográfica del área rural del Perú en el marco del proyecto de Censo Nacional de Población y Vivienda. Manejo de herramientas GIS, grandes bases de datos y lenguajes de programación (Python, SQL Server) para la adecuada designación de empadronamiento rural.}
+\vspace{3mm}
+
+\cventry{Ene 2017 -- Mar 2017}{Consultor GIS}{\textsc{ARK-DEKO Inside}}{}{}{Actualización de la base de datos espacial y generación de mapas murales y guías técnicas para el Centro de Servicios Sedapal Villa El Salvador.}
+\vspace{3mm}
+
+\cventry{Nov 2016 -- Dic 2016}{Automatizador Cartográfico}{\textsc{INEI}}{Área de Cartografía}{}{Generación de información vectorial y herramientas espaciales en lenguaje python como parte del proyecto del Censo de Población y Vivienda 2017.}
+\vspace{3mm}
+
+\cventry{Nov 2015 -- Ago 2016}{Asistente de Ingeniería}{\textsc{Autoridad Nacional del Agua}}{}{}{Participación en proyectos hidráulicos, afianzamiento hídrico a nivel nacional aplicando herramientas de teledetección y SIG. Se apoyó en la elaboración de informes hidráulicos, hidrológicos y realización de mapas masivos. Se implementaron herramientas de análisis de series de tiempo a partir de información satelital para facilitar la completación de información. Se utilizaron diferentes herramientas como AutoCad, ArcGis, ENVI, IBER, HecHMS y lenguajes de programación como R y Python.\\
+-Generación de un sistema de identificación de potencial de erosión en las cuencas  del Pacífico, desarrollado en el entorno Shiny del IDE RStudio. Este sistema permite la estimación del volumen muerto generado en un punto de la cualquier cuenca; ideal para la gestión del recurso hídrico.\\
+-Asímismo también se colaboró como participante en el COEFEN 2015-2016.}
+
+\vspace{3mm}
+
+\cventry{Jun 2015 -- Oct 2015}{Asistente de Ingeniería}{\textsc{CIDHMA Ingenieros}}{}{}{Asistencia en proyectos hidráulicos, elaboración de informes de inundaciones, análisis de máximas avenidas, series de tiempo para la disponibilidad hídrica, entre otros. Se utilizaron herramientas como HecRas, HecHMS, IBER, Autocad, ArcGis y R.
+-Levantamiento topográfico y batimétrico del cauce del río Rimac en el distrito de Chosica.}
+\vspace{3mm}
+
+\cventry{Feb 2014 -- Sep 2014}{Practicante}{\textsc{Autoridad Nacional del Agua}}{Dirección de Estudios de Proyectos Hidráulicos Multisectoriales}{}{Apoyo en diferentes labores técnicas de hidrología como análisis de datos hidrometeorológicos; participación en la elaboración de estudios de proyectos de infraestructura hidráulica para prevención de inundaciones y diseño de canales.}
+\vspace{3mm}
+
+%\cventry{Ago 2013 -- Feb 2014}{Practicante}{\textsc{Municipalidad Metropolitana de Lima}}{Gerencia de Seguridad Ciudadana - Subgerencia de Defensa Civil}{}{Apoyo al área de prevención de riesgos mediante la estructuración, manejo de bases de datos espaciales y diseño del SIGWeb SIGPREV aplicando lenguajes de programación PHP, mySQL y Javascript. Además, se participó en trabajos de campo, apoyando en las estimaciones de riesgo.}
+%------------------------------------------------
+%\vspace{2mm}
+%\cventry{}{Apoyo en consultorías externas}{}{}{}{}
+%\cventry{}{AIDER}{}{}{}{-Digitalización de la red hidrográfica del departamento de La Libertad a partir de imágenes satelitales RapidEye, dentro del proyecto de generación de base de datos para el MINAGRI.}
+%\cventry{}{MINEDU}{}{}{}{-Generación de una herramienta de segmentación del casco urbano para la costa, sierra y selva a partir de imágenes de media resolución y de acceso libre.}
+%\cventry{}{ANA}{}{}{}{-Generación de un sistema de identificación de potencial de erosión en las cuencas  del Pacífico, desarrollado en el entorno Shiny del IDE RStudio. Este sistema permite la estimación del volumen muerto generado en un punto de la cualquier cuenca; ideal para la gestión del recurso hídrico.}
+%\cventry{}{Topografía y Geodesia}{}{}{}{-Colaboración en diferentes levantamientos topográficos y geodésicos en Lima como en el interior del país. Además de manipulación de diferentes herramientas como estación total, nivel electrónico, GPS diferencial, drones.}
+
+%\vspace{0mm}
+
+\section{Actividades extracurriculares}
+
+\cventry{}{Apoyo en Tesis de Maestría}{Apoyo al ingeniero geólogo Isidro Sandoval Ortiz en el desarrollo de su tesis de maestría orientada a simulación de flujo de detritos en quebradas del distrito de Chosica - Lima.}{}{}{}
+
+\cventry{Ene 2017 -- Act}{Miembro Comunidad Open Source CFD}{\textsc{:}}{Grupo formado para capacitar a estudiantes y profesionales en la aplicación de software libre.}{}{}
+
+\cventry{Feb 2016 -- Dic 2016}{Miembro GiCT (Grupo de Investigación en Ciencias de la Tierra)}{\textsc{E.A.P. Ingeniería Geográfica - UNMSM}}{Grupo de egresados y estudiantes de la carrera de Ingeniería Geográfica que realizan aplicaciones de la teledetección y SIG.}{}{}
+
+\cventry{Ene 2015 -- Act}{Miembro Young Professional del IAHR San Marcos}{\textsc{Membership No. 47222}}{Parte del grupo de jóvenes profesionales en el campo de la hidráulica.}{}{}
+
+\cventry{Mar 2015 -- Mar 2016}{Miembro GEAHH (Grupo Estudiantil Aplicado a Hidráulica e Hidrología)}{\textsc{Facultad de Ingeniería Civil - UNI}}{Grupo de Estudiantes orientados a temas hidrológicos, promoviendo cursos, seminarios, talleres, salidas de campo e investigaciones.}{}{}
+
+%----------------------------------------------------------------------------------------
+%	COMPUTER SKILLS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Conocimientos Informáticos}
+
+\cvitem{SIG y Teledetección}{ArcGis, Envi, Erdas, Qgis, Saga, Ilwis, Autocad Map, Google Earth, Global Mapper, SAS.Planet}
+\cvitem{Programación}{Fortran, R, Python, Html, CSS, Javascript, Git, \LaTeX}
+\cvitem{Hidraulica}{HecRas, River2D, IBER}
+\cvitem{Hidrología}{HecHMS, Hydracces, RS-Minerve}
+\cvitem{Database }{SQL Server, Oracle, PostgreSQL, MongoDB}
+\cvitem{OS}{Windows, Ubuntu (Linux)}
+
+%\vspace{10mm}
+%----------------------------------------------------------------------------------------
+%	COURSES
+%----------------------------------------------------------------------------------------
+
+\section{Cursos Complementarios}
+
+%\cventry{2017}{Python for Data Science and Machine Learning Bootcamp}{\textsc{Udemy}}{En curso}{}{}
+\cventry{2019}{Machine Learning Inmersion}{\textsc{DMC Perú}}{En curso}{}{}
+\cventry{2018}{Modelo Hidrológico - Modelo de Grandes Cuencas MGB}{\textsc{HGE-UFRGS-SENAMHI}}{}{}{}
+\cventry{2017}{Diplomado Programación Web}{\textsc{Pandemia}}{}{}{}
+\cventry{2016}{R Aplicado a SIG y Teledetección}{\textsc{Instituto Científico del Pacífico}}{}{}{}
+\cventry{2016}{Curso de Hidrología Básica}{\textsc{Projeto \'Agua e Gest\~{a}o}}{}{}{}
+\cventry{2016}{Curso de Fortran}{\textsc{Facultad de Ingenier\'ia Civil - UNI}}{}{}{}
+%\cventry{2013}{Curso de ArcGis 10.2 "Gesti\'on y Mapeo del Territorio"}{\textsc{Centro de Altos Estudios en Geom\'atica}}{}{}{}
+\cventry{2013}{Fundamentos de Percepción Remota}{\textsc{IGAC - Colombia}}{}{}{}
+\cventry{2012}{Curso-Taller: Manejo de Estaci\'on Total}{\textsc{Survey Rental \& Sales}}{}{}{}
+\cventry{2012}{ArcGis 10.1 Nivel I, II y III}{\textsc{UNIMASTER}}{}{}{}
+\cventry{2011}{Especialista en Autocad}{\textsc{CEPS UNI}}{}{}{}
+%\cventry{2010}{Herramientas Inform\'aticas: Microsoft Office}{\textsc{CINFO UNMSM}}{}{}{}
+
+%\vspace{2mm}
+
+%----------------------------------------------------------------------------------------
+%	CONFERENCES AND CONGRESS
+%----------------------------------------------------------------------------------------
+
+\section{Seminarios y Conferencias}
+
+\cventry{Mar 2016}{Investigaciones en Recursos Hídricos en el Marco del d\'ia Mundial del Agua}{\textsc{SENAMHI}}{}{}{}
+\cventry{Mar 2015}{Introducci\'on a la hidrolog\'ia y climatolog\'ia de la cuenca amaz\'onica}{\textsc{Observatorio HYBAM(IGP, SENAMHI, UNALM, IRD)}}{}{}{}
+\cventry{Feb 2015}{Cambio Global en Monta\~{n}as}{\textsc{UNMSM, IGP, OHIO University}}{}{}{}
+%\cventry{Nov 2014}{Desarrollo Geotecnol\'ogico y Gesti\'on Integrada del Territorio frente al Cambio Clim\'atico; E.A.P. Ingenier\'ia Geogr\'afica}{\textsc{UNMSM}}{\textit{Organizador}}{}{}
+\cventry{Oct 2014}{World Resources Forum}{\textsc{Arequipa - Per\'u}}{}{}{}
+\cventry{Ago 2014}{VIII Congreso Internacional de Ordenamiento Territorial y Ambiental}{\textsc{Universidad Nacional San Antonio de Abad - Cusco}}{}{}{}
+%\cventry{Jun 2014}{Ciclo de Conferencias por el d\'ia del Medio Ambiente}{\textsc{Facultad de Ingenier\'ia Ambiental UNI}}{\textit{Organizador}}{}{}
+
+%----------------------------------------------------------------------------------------
+%	ABILITIES
+%----------------------------------------------------------------------------------------
+
+%\section{Habilidades}
+
+%\renewcommand{\listitemsymbol}{-~} % Changes the symbol used for lists
+
+%\cvlistitem{Sviluppo di un Sistema per la gestione di Ticketing}
+%{Manutenzione  Evolutiva del Portale  ARPACAL (Agenzia  Regionale per  la Protezione dell'Ambiente della Calabria)}
+%\cvlistitem{Sviluppo di un sistema per la gestione delle Tasse di Concessione Regionale (TCR)}
+%\cvlistitem{Sviluppo di un Sistema per la gestione dei Verbali}
+%\cvlistitem{Manutenzione Evolutiva del Portale dei Tributi della Regione Calabria}
+%\cvlistitem{Sviluppo di un Sistema per la gestione delle Minute e delle Pratiche di Equitalia    attraverso l'interazione tramite Web Service}
+
+%----------------------------------------------------------------------------------------
+%	COMMUNICATION SKILLS SECTION
+%----------------------------------------------------------------------------------------
+
+%\section{Communication Skills}
+
+%\cvitem{2010}{Oral Presentation at the California Business Conference}
+%\cvitem{2009}{Poster at the Annual Business Conference in Oregon}
+
+%----------------------------------------------------------------------------------------
+%	LANGUAGES SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Idiomas}
+
+\cvitemwithcomment{Espa\~{n}ol}{Lengua Madre}{}
+\cvitemwithcomment{Ingl\'es}{Nivel Intermedio}{}
+%\cvitemwithcomment{Potugu\'es}{B\'asico}{}
+
+%----------------------------------------------------------------------------------------
+%	PUBLICACIONES
+%----------------------------------------------------------------------------------------
+
+%\section{Publicaciones}
+
+%\cventry{}{World Multidisciplinary Earth Sciences Simposium}{09-2017}{}{}{
+%"Gis-Based modeling of soil loss and sediment yield for Jequetepeque basin and assessment of %sedimentation impacts on Gallito Ciego Dam"}
+%\vspace{5mm}
+%\cvitemwithcomment{Potugu\'es}{B\'asico}{}
+
+%----------------------------------------------------------------------------------------
+%	EXPECTATIVAS SALARIALES
+%----------------------------------------------------------------------------------------
+
+%\section{Expectativas Salariales}
+%\cventry{}{S/ 3500.00}{}{}{}{}
+
+
+%----------------------------------------------------------------------------------------
+%	REFERENCES
+%----------------------------------------------------------------------------------------
+
+\section{Referencias Personales}
+
+\smallskip
+
+%\cventry{}{Mg. Juan Salcedo Carbajal}{}{}{}{
+%Coordinador GIS - INGEMMET\\
+%Teléfono: (+51) 997 356 419\\
+%E-mail: jsalcedo@ingemmet.gob.pe}
+%\vspace{3mm}
+
+\cventry{}{Ph.D. Waldo Sven Lavado Casimiro}{}{}{}{
+Director del área de Hidrología Aplicada - SENAMHI\\
+Teléfono: (+51) 989 702 529\\
+E-mail: wlavado@senamhi.gob.pe}
+\vspace{2mm}
+
+%\cventry{}{Mg. Elmer Jhon Perez Espinoza}{}{}{}{
+%Coordinador de Proyectos TI - INEI\\
+%Tel\'efono: (+51) 991 691 831\\
+%E-mail: elmer.perez@inei.gob.pe}
+%\vspace{3mm}
+
+\cventry{}{Mg. Jairo Chunga Alegre}{}{}{}{
+Especialista en Hidrología - ANA\\
+Tel\'efono: (+51) 964 892 986\\
+E-mail: jchungaa@ana.gob.pe}
+\vspace{2mm}
+
+\cventry{}{Ing. Eduardo Gonzalez Otoya}{}{}{}{
+Asesor de Alta Direcci\'on Autoridad Nacional del Agua\\
+Tel\'efono: (+51) 975 154 864\\
+E-mail: egonzalesotoya@yahoo.com}
+\vspace{2mm}
+
+%\cventry{}{Mg. Ren\'an Alberto Pacheco Abad}{}{}{}{
+%Jefe de la Oficina de Fomento a la Formaci\'on Cient\'ifica\\
+%\textsc{Vicerrectorado de Investigaci\'on - UNMSM}\\
+%Tel\'efono: (+51) 994 579 489\\
+%E-mail: rpachecoa@unmsm.edu.pe}
+%\vspace{3mm}
+
+\cventry{}{Ing. Fernando Félix Inocente Mendoza}{}{}{}{
+Gte. General CIDHMA Ingenieros\\
+Tel\'efono: (+51) 997 231 780\\
+E-mail: finocente@cidhma.com}
+
+%\hspace*{1.5cm}
+%----------------------------------------------------------------------------------------
+%	INTERESTS SECTION
+%----------------------------------------------------------------------------------------
+
+%\section{Intereses}
+
+%\renewcommand{\listitemsymbol}{-~} % Changes the symbol used for lists
+
+%\cvitem{\textbf{Acad\'emicos}}{Sensoramiento Remoto, Programaci\'on, Desarrollo WEB, Geoservidores, Recursos H\'idricos, Ciencias Atmosf\'ericas, Geoestad\'istica, OpenSource, Investigaci\'on}
+
+%\cvitem{\textbf{Personales}}{Trekking, Nataci\'on, M\'usica, Leer, Viajar, Futbol}
+
+%\cvlistdoubleitem{Piano}{}
+%\cvlistitem{Atletica}
+
+%----------------------------------------------------------------------------------------
+%	COVER LETTER
+%----------------------------------------------------------------------------------------
+
+% To remove the cover letter, comment out this entire block
+
+%\clearpage
+
+%\recipient{HR Department}{Corporation\\123 Pleasant Lane\\12345 City, State} % Letter recipient
+%\date{\today} % Letter date
+%\opening{Dear Sir or Madam,} % Opening greeting
+%\closing{Sincerely yours,} % Closing phrase
+%\enclosure[Attached]{curriculum vit\ae{}} % List of enclosed documents
+
+%\makelettertitle % Print letter title
+
+%\lipsum[1-3] % Dummy text
+
+%\makeletterclosing % Print letter signature
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
