@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840 64-bit) (preloaded format=pdflatex 2018.10.17)  23 MAY 2019 09:31
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840 64-bit) (preloaded format=pdflatex 2018.10.17)  24 MAY 2019 10:05
 entering extended mode
 **./CV.tex
 (CV.tex
@@ -1182,27 +1182,27 @@ File: english.lbx 2018/11/02 v3.12 biblatex localization (PK/MW)
  (CV.aux)
 \openout1 = `CV.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
 LaTeX Font Info:    Try loading font information for T1+lato-TLF on input line 
-46.
+47.
 
 ("C:\Users\PERSONAL\AppData\Local\Programs\MiKTeX 2.9\tex\latex\lato\t1lato-tlf
 .fd"
 File: T1lato-TLF.fd 2017/10/22 Font definitions for T1/lato-TLF.
 )
 LaTeX Font Info:    Font shape `T1/lato-TLF/m/n' will be
-(Font)              scaled to size 10.0pt on input line 46.
+(Font)              scaled to size 10.0pt on input line 47.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1282,61 +1282,61 @@ Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'CV.bbl' not found.
 
 No file CV.bbl.
-Package biblatex Info: Reference section=0 on input line 46.
-Package biblatex Info: Reference segment=0 on input line 46.
+Package biblatex Info: Reference section=0 on input line 47.
+Package biblatex Info: Reference segment=0 on input line 47.
 \c@mv@tabular=\count318
 \c@mv@boldtabular=\count319
 LaTeX Font Info:    Font shape `T1/lato-TLF/m/n' will be
-(Font)              scaled to size 24.88pt on input line 68.
+(Font)              scaled to size 24.88pt on input line 69.
 LaTeX Font Info:    Font shape `T1/lato-TLF/bx/n' in size <24.88> not available
 
-(Font)              Font shape `T1/lato-TLF/b/n' tried instead on input line 68
+(Font)              Font shape `T1/lato-TLF/b/n' tried instead on input line 69
 .
 LaTeX Font Info:    Font shape `T1/lato-TLF/b/n' will be
-(Font)              scaled to size 24.88pt on input line 68.
+(Font)              scaled to size 24.88pt on input line 69.
 LaTeX Font Info:    Font shape `T1/lato-TLF/m/n' will be
-(Font)              scaled to size 12.0pt on input line 68.
+(Font)              scaled to size 12.0pt on input line 69.
 LaTeX Font Info:    Font shape `T1/lato-TLF/bx/n' in size <12> not available
-(Font)              Font shape `T1/lato-TLF/b/n' tried instead on input line 68
+(Font)              Font shape `T1/lato-TLF/b/n' tried instead on input line 69
 .
 LaTeX Font Info:    Font shape `T1/lato-TLF/b/n' will be
-(Font)              scaled to size 12.0pt on input line 68.
+(Font)              scaled to size 12.0pt on input line 69.
 LaTeX Font Info:    Font shape `T1/lato-TLF/m/n' will be
-(Font)              scaled to size 8.0pt on input line 68.
+(Font)              scaled to size 8.0pt on input line 69.
 LaTeX Font Info:    Font shape `T1/lato-TLF/bx/n' in size <8> not available
-(Font)              Font shape `T1/lato-TLF/b/n' tried instead on input line 68
+(Font)              Font shape `T1/lato-TLF/b/n' tried instead on input line 69
 .
 LaTeX Font Info:    Font shape `T1/lato-TLF/b/n' will be
-(Font)              scaled to size 8.0pt on input line 68.
+(Font)              scaled to size 8.0pt on input line 69.
 LaTeX Font Info:    Try loading font information for U+fontawesomeone on input 
-line 68.
+line 69.
 
 ("C:\Users\PERSONAL\AppData\Local\Programs\MiKTeX 2.9\tex\latex\fontawesome\ufo
 ntawesomeone.fd"
 File: ufontawesomeone.fd 2016/05/22 Font definitions for U/fontawesomeone.
 )
 LaTeX Font Info:    Try loading font information for U+fontawesometwo on input 
-line 68.
+line 69.
 
 ("C:\Users\PERSONAL\AppData\Local\Programs\MiKTeX 2.9\tex\latex\fontawesome\ufo
 ntawesometwo.fd"
 File: ufontawesometwo.fd 2016/05/22 Font definitions for U/fontawesometwo.
 )
 LaTeX Font Info:    Try loading font information for U+fontawesomethree on inpu
-t line 68.
+t line 69.
 
 ("C:\Users\PERSONAL\AppData\Local\Programs\MiKTeX 2.9\tex\latex\fontawesome\ufo
 ntawesomethree.fd"
 File: ufontawesomethree.fd 2016/05/22 Font definitions for U/fontawesomethree.
 )
 LaTeX Font Info:    External font `cmex7' loaded for size
-(Font)              <7> on input line 68.
+(Font)              <7> on input line 69.
 LaTeX Font Info:    External font `cmex7' loaded for size
-(Font)              <5> on input line 68.
+(Font)              <5> on input line 69.
 <Roy.jpg, id=4, 125.5089pt x 160.4394pt>
 File: Roy.jpg Graphic file (type jpg)
 <use Roy.jpg>
-Package pdftex.def Info: Roy.jpg  used on input line 68.
+Package pdftex.def Info: Roy.jpg  used on input line 69.
 (pdftex.def)             Requested size: 71.13188pt x 90.9275pt.
  (page1sidebar.tex
 LaTeX Font Info:    Font shape `T1/lato-TLF/m/n' will be
@@ -1484,16 +1484,16 @@ Underfull \hbox (badness 10000) detected at line 61
 
 )
 LaTeX Font Info:    Try loading font information for OMS+lato-TLF on input line
- 82.
-LaTeX Font Info:    No file OMSlato-TLF.fd. on input line 82.
+ 83.
+LaTeX Font Info:    No file OMSlato-TLF.fd. on input line 83.
 
 
 LaTeX Font Warning: Font shape `OMS/lato-TLF/m/n' undefined
 (Font)              using `OMS/cmsy/m/n' instead
-(Font)              for symbol `textbullet' on input line 82.
+(Font)              for symbol `textbullet' on input line 83.
 
 ! You can't use `macro parameter character #' in horizontal mode.
-l.84 ...e lenguajes de programación Python, R, C#
+l.85 ...e lenguajes de programación Python, R, C#
                                                   , Js, Oracle.
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -1508,7 +1508,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.97 ...ación rural y actualización cartográﬁ
+l.98 ...ación rural y actualización cartográﬁ
                                                   ca a nivel nacional en el ...
 
 You may provide a definition with
@@ -1522,7 +1522,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.104 ...cipación en proyectos hidráulicos, aﬁ
+l.105 ...cipación en proyectos hidráulicos, aﬁ
                                                   anzamiento hídrico a nive...
 
 You may provide a definition with
@@ -1536,7 +1536,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.105 ...l de erosión en las cuencas del Pacíﬁ
+l.106 ...l de erosión en las cuencas del Pacíﬁ
                                                   co, desarrollado en el ent...
 
 You may provide a definition with
@@ -1550,7 +1550,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.113 \item Levantamiento topográﬁ
+l.114 \item Levantamiento topográﬁ
                                      co y batimétrico del cauce del río Ri...
 
 You may provide a definition with
@@ -1568,10 +1568,10 @@ Package logreq Info: Writing requests to 'CV.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 24560 strings out of 492970
- 503452 string characters out of 3125261
- 939773 words of memory out of 3000000
- 28034 multiletter control sequences out of 15000+200000
+ 24561 strings out of 492970
+ 503460 string characters out of 3125261
+ 940863 words of memory out of 3000000
+ 28035 multiletter control sequences out of 15000+200000
  272089 words of font info for 43 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  71i,9n,91p,1129b,791s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1585,7 +1585,7 @@ Users/PERSONAL/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/fontawesome
 e1/public/lato/Lato-Bold.pfb><C:/Users/PERSONAL/AppData/Local/Programs/MiKTeX 2
 .9/fonts/type1/public/lato/Lato-Regular.pfb><C:/Users/PERSONAL/AppData/Local/Pr
 ograms/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy9.pfb>
-Output written on CV.pdf (1 page, 725015 bytes).
+Output written on CV.pdf (1 page, 725326 bytes).
 PDF statistics:
  34 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
